@@ -11,6 +11,9 @@
 a{
     text-decoration: none !important;
 }
+.row{
+    margin: 55px 0px !important;
+}
 .mg-top{
     margin-top: 35px;
 }
@@ -33,6 +36,9 @@ a{
     color: var(--prmario) !important;
     font-weight: 700;
     text-decoration: underline var(--prmario);
+}
+.active{
+    text-decoration: underline var(--prmario) !important;
 }
 .nav-item{
     font-size: 18px;
@@ -121,7 +127,21 @@ h2{
 .al-btn{
     text-align: center;
 }
-
+.ver-mas{
+    text-decoration: underline !important;
+    font-weight: 700;
+    margin-top: 13px;
+    color: var(--prmario);
+}
+.ver-mas:hover{
+    text-decoration: underline !important;
+    color: var(--prmario);
+    font-size: 18px;
+    max-width: 105px;transition: all 0.3s ease;
+}
+.vm-text{
+    text-align: center;
+}
 /*-----Footer-----*/
 footer{
     background-color: var(--prmario);
@@ -134,8 +154,14 @@ footer{
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
-footer p{
+footer a{
     margin: 25px;
     font-size: 22px;
     font-weight: 500;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline !important;
+    font-weight: 700;
+    color: white;
 }
