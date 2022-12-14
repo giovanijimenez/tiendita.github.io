@@ -76,8 +76,8 @@ h2{
 }
 .btn-cotizar{
     background-color: white;
-    width: 200px;
-    height: 30%;
+    width: 300px;
+    height: 50px;
     border-radius: 18px;
     border-color: none !important;
 }
@@ -102,6 +102,13 @@ h2{
 }
 .btn-pedido{
     background-color: var(--prmario);
+    width: 300px;
+    border-radius: 30px;
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.btn-pedido:hover{
+    background-color: var(--gris);
     width: 300px;
     border-radius: 30px;
     border-color: none !important;
