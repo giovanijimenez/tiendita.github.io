@@ -106,7 +106,21 @@ h2{
     font-size: 22px;
     text-align: center;
 }
-
+.pasos-ico{
+        margin-top: 35px;
+        font-size: 30px;
+        color: var(--prmario);
+        text-align: center;
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        margin-bottom: 20px;
+}
+.al-btn{
+    text-align: center;
+}
 
 /*-----Footer-----*/
 footer{
