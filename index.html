@@ -16,27 +16,29 @@
   <body>
     <!-----------Header-------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid menu-header">
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="catalogo.html">Catálogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cotizador.html">Cotizador</a>
-              </li>
-            </ul>
-            <span class="navbar-text">
-                <a href="index.html">
-                    <img src="img/logo.png" alt="" width="200px">
-                </a>
-            </span>
-          </div>
+      <div class="container-fluid  menu-header">
+        <a class="navbar-brand" href="index.html">
+          <img src="img/logo.png" alt="" width="200px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"  style="margin-left:40px;" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalogo.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cotizador.html">Cotizador</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
+
     <!------------Contenido--------->
     <main>
         <div class="container">
@@ -100,9 +102,9 @@
                     <h2 class="mg-a"><strong>Conoce Nuestro Catálogo</strong></h2>
                 </div>
                 <div class="col-6 aling-center">
-                    <button class="btn-cotizar">
-                        <a href="catalogo.html">Ver Más</a>
-                    </button>
+                  <button type="button" class="btn-cotizar btn btn-lg">
+                    <a href="catalogo.html">Ver Más</a>
+                  </button>
                 </div>
             </div>
             <div class="row">
@@ -120,7 +122,8 @@
                             <div class="paso-tres"><p>Recibe</p><i class='bx bxs-package' ></i></div>
                         </div>
                         <div class="al-btn">
-                        <button class="btn-pedido"><a href="cotizador.html">Hacer pedido</a></button></div>
+                          <button type="button" class="btn-pedido btn btn-lg"><a href="cotizador.html">Hacer pedido</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
