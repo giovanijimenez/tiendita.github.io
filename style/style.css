@@ -149,10 +149,6 @@ footer{
     color: white;
     text-align: center;
     display: flex;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
 }
 footer a{
     margin: 25px;
@@ -164,4 +160,8 @@ footer a:hover{
     text-decoration: underline !important;
     font-weight: 700;
     color: white;
+}
+.datos{
+    text-align: center;
+    margin: auto;
 }
